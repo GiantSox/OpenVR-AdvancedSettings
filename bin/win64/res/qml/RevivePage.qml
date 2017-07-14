@@ -151,7 +151,7 @@ MyStackViewPage {
             MyComboBox {
                 id: gripButtonModeComboBox
                 Layout.preferredWidth: 300
-                model: ["Normal Mode", "Toggle Mode", "Hybrid Mode"]
+                model: ["Normal Mode", "Toggle Mode", "Hybrid Mode", "Trigger Mode"]
                 onCurrentIndexChanged: {
                     if (componentCompleted) {
                         ReviveTabController.setGripButtonMode(currentIndex, false)
